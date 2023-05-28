@@ -47,6 +47,7 @@ export default function SignInPage() {
   };
 
   return (
+    <div className='unselectable'>
     <div className="text-center m-5-auto">
       <h2 className="login_h2">Sign in to us</h2>
       <form onSubmit={handleSubmit} action="/home">
@@ -68,6 +69,7 @@ export default function SignInPage() {
         <p>First time? <Link to="/register">Create an account</Link>.</p>
         <p><Link to="/">Back to Homepage</Link>.</p>
       </footer>
+    </div>
     </div>
   )
 }

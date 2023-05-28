@@ -38,6 +38,7 @@ export default function ResetPassword() {
   }
 
   return (
+    <div className='unselectable'>
     <div className="text-center m-5-auto">
     <h2 className="login_h2">Reset Password</h2>
     <form onSubmit={handleSubmit}>
@@ -54,6 +55,7 @@ export default function ResetPassword() {
       <button type="submit">Submit</button>
       </p>
     </form>
+    </div>
     </div>
   );
 }

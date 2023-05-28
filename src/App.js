@@ -6,7 +6,6 @@ import LoginPage from './components/pages/LoginPage'
 import RegisterPage from './components/pages/RegisterPage'
 import ForgetPasswordPage from './components/pages/ForgetPasswordPage'
 import HomePage from './components/pages/HomePage'
-import AdminPage from './components/pages/AdminPage'
 import UsersPage from './components/pages/UsersPage'
 import ResetPasswordPage from './components/pages/ResetPasswordPage'
 
@@ -22,7 +21,6 @@ export default function App() {
                     <Route path="/register" component={ RegisterPage } />
                     <Route path="/forget-password" component={ ForgetPasswordPage } />
                     <Route path="/home" component={ HomePage } />
-                    <Route path="/admin" component={ AdminPage } />
                     <Route path="/users" component={ UsersPage } />
                     <Route path="/reset-password" component={ ResetPasswordPage } />
                 </Switch>

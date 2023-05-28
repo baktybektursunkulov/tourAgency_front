@@ -56,8 +56,8 @@ export default function AdminPage() {
   return (
     <>
     
-
-      <div className="text-center">
+<div className='unselectable'>
+      <div className="text-center" >
 
         
         <div>
@@ -118,6 +118,7 @@ export default function AdminPage() {
         <Link to="/home">
           <button className="primary-button">Back to Home</button>
         </Link>
+      </div>
       </div>
     </>
   )

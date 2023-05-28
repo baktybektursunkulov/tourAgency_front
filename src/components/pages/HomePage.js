@@ -49,12 +49,12 @@ export default function HomePage() {
         </div>
       </header>
 
-      <div id="top">
-        <h1>Путешествовать необходимо тем, кто учится</h1>
+      <div id="top" className='unselectable'>
+        <h1 >Путешествовать необходимо тем, кто учится</h1>
         <h3>Жизнь – это либо отчаянное приключение, либо ничего</h3>
       </div>
 
-      <div id="contacts">
+      <div id="contacts" className='unselectable'>
         <center><h5>Обратная связь</h5></center>
         <form id="form_input">
           <label for="name">Имя <span>*</span></label><br />

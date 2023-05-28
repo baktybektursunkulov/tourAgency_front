@@ -7,6 +7,7 @@ import BackgroundImage from '../../assets/images/bg.png'
 export default function LandingPage() {
     return (
         <header style={HeaderStyle}>
+            <div className='unselectable'>
             <h1 className="main-title text-center">Тур Агентство</h1>
             <p className="main-para text-center">Присоединяйтесь к нам сейчас и путешествуйте</p>
             <div className="buttons text-center">
@@ -16,6 +17,7 @@ export default function LandingPage() {
                 <Link to="/register">
                     <button className="primary-button" id="reg_btn"><span>Регистрация</span></button>
                 </Link>
+            </div>
             </div>
         </header>
     )

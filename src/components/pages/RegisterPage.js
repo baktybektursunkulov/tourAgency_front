@@ -47,6 +47,7 @@ export default function SignUpPage() {
     };
 
     return (
+        <div className='unselectable'>
         <div className="text-center m-5-auto">
             <h2>Join us</h2>
             <h5>Create your personal account</h5>
@@ -87,6 +88,7 @@ export default function SignUpPage() {
             <footer>
                 <p><Link to="/">Back to Homepage</Link>.</p>
             </footer>
+        </div>
         </div>
     )
 
