@@ -10,3 +10,10 @@ RUN npm run build
 
 
 EXPOSE 3000
+
+
+# start app
+CMD ["npm", "start"]
+
+#docker build -t react-app .
+#docker run -it -p 3000:3000 -d react-app
