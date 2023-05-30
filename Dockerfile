@@ -15,5 +15,5 @@ EXPOSE 3000
 # start app
 CMD ["npm", "start"]
 
-#docker build -t react-app .
+#docker build -t tour_agency/front .
 #docker run -it -p 3000:3000 -d react-app
