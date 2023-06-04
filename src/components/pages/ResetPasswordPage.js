@@ -14,7 +14,7 @@ export default function ResetPassword() {
     e.preventDefault();
     const token = new URLSearchParams(window.location.search).get('token');
     try {
-      const response = await fetch('http://34.118.240.12:8075/api/password/reset-password', {
+      const response = await fetch('http://localhost:8075/api/password/reset-password', {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

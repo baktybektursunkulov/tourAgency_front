@@ -25,7 +25,7 @@ export default function AdminPage() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch("http://34.118.240.12:8075/api/v1/admin/allUsers", {
+    fetch("http://localhost:8075/api/v1/admin/allUsers", {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -40,7 +40,7 @@ export default function AdminPage() {
   const [deletingUser, setDeletingUser] = useState();
 
 
-  fetch("http://34.118.240.12:8075/api/v1/admin/delete/" + deletingUser, {
+  fetch("http://localhost:8075/api/v1/admin/delete/" + deletingUser, {
     method: 'DELETE',
     headers: {
       'Content-Type': 'application/json',

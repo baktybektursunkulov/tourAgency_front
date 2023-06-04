@@ -25,7 +25,7 @@ export default function SignUpPage() {
         event.preventDefault();
 
         try {
-            const response = await fetch('http://34.118.240.12:8075/api/v1/auth/logup', {
+            const response = await fetch('http://localhost:8075/api/v1/auth/logup', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

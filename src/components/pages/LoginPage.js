@@ -16,7 +16,7 @@ export default function SignInPage() {
     event.preventDefault();
 
     try {
-      const response = await fetch('http://34.118.240.12:8075/api/v1/auth/login', {
+      const response = await fetch('http://localhost:8075/api/v1/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

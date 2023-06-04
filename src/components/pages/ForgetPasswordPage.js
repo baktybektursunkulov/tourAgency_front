@@ -12,7 +12,7 @@ export default function ForgetPasswordPage() {
     event.preventDefault();
 
     try {
-      const response = await fetch('http://34.118.240.12:8075/api/password/forgot-password', {
+      const response = await fetch('http://localhost:8075/api/password/forgot-password', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
